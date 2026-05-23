@@ -24,7 +24,7 @@ if not TOKEN:
     raise ValueError("BOT_TOKEN не задан! Создай файл .env с BOT_TOKEN=твой_токен")
 
 # Владелец бота — всегда имеет доступ к админке
-OWNER_ID = os.getenv("ADMIN_OWNER")
+OWNER_ID = int(os.getenv("ADMIN_OWNER", "759391249"))
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
