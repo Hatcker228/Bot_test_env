@@ -1,0 +1,5 @@
+.env
+appointments.db
+__pycache__/
+*.pyc
+.vs/
