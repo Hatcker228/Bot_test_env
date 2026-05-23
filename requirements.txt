@@ -1,2 +1,4 @@
 aiogram==3.7.0
 python-dotenv==1.0.1
+pydantic>=2.9.0
+pydantic-core>=2.23.0
